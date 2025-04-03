@@ -1,0 +1,47 @@
+
+.result__content{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 60px 15px;
+}
+
+.result-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.result-card{
+    margin: 0 20px;
+    width: 360px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    /* border: solid 1px green; */
+}
+
+.result-card__img-wrapper{
+    position: relative;
+    padding-top: 60%;
+    /* ↑ここで画像の入る縦の長さを指定。 */
+    /* border: solid 1px purple; */
+}
+
+.result-card__img{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-50%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    /* border: solid 1px red; */
+}
+
+.result-card__body{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.result-card__city, .result-card__time {
+    margin: 0;
+    font-size: 18px;
+}
